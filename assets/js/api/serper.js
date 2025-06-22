@@ -3,7 +3,7 @@
  * Handles all interactions with the Serper search API
  */
 
-import { CONFIG, MESSAGES } from '../config.js';
+import { CONFIG, MESSAGES } from '../test-made-in-india-main/assets/js/config.js';
 
 export class SerperAPI {
     /**

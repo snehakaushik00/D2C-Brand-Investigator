@@ -3,7 +3,7 @@
  * Handles LinkedIn profile data fetching using RapidAPI
  */
 
-import { CONFIG, MESSAGES } from '../config.js';
+import { CONFIG, MESSAGES } from '../test-made-in-india-main/assets/js/config.js';
 
 export class LinkedInAPI {
     /**
