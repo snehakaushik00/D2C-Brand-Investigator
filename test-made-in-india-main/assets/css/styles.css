@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #4f46e5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.result-card {
+    transition: all 0.3s ease-in-out;
+}
+
+.insight-highlight {
+    background: linear-gradient(120deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+}
+
+.ai-analysis {
+    background: linear-gradient(120deg, #ddd6fe 0%, #c4b5fd 100%);
+    border-left: 4px solid #8b5cf6;
+}
+
+.step-progress {
+    height: 4px;
+    background: #e5e7eb;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.step-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4f46e5, #7c3aed);
+    transition: width 0.3s ease;
+} 
